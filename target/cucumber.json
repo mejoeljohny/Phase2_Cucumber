@@ -1,0 +1,832 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login to the application Sauce Demo",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6697981100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T10:19:08.057Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1867773800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.Setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate the successful login functionality using multiple Testdata",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-sauce-demo-application;validate-the-successful-login-functionality-using-multiple-testdata;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 793104700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5110063800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 597855800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592989100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658480700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Login_Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1279800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be Landed on the PLP Page",
+            "match": {
+              "location": "Login_Steps.i_should_be_landed_on_the_plp_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login to the application Sauce Demo",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5390347500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T10:19:24.425Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1276977600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.Setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate the successful login functionality using multiple Testdata",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-sauce-demo-application;validate-the-successful-login-functionality-using-multiple-testdata;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 678674400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5073753000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 652361100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the username \"performance_glitch_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 641562200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5664672000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Login_Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1709900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be Landed on the PLP Page",
+            "match": {
+              "location": "Login_Steps.i_should_be_landed_on_the_plp_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login to the application Sauce Demo",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5508202400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T10:19:43.811Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1525082700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.Setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate the successful login functionality using multiple Testdata",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-sauce-demo-application;validate-the-successful-login-functionality-using-multiple-testdata;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 789901600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5070386900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 651864700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the username \"problem_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 627956600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672940700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Login_Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1178900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be Landed on the PLP Page",
+            "match": {
+              "location": "Login_Steps.i_should_be_landed_on_the_plp_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login to the application Sauce Demo",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5315983500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T10:19:58.667Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1249181200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.Setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validate the Negative login functionality using multiple Testdata",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-sauce-demo-application;validate-the-negative-login-functionality-using-multiple-testdata;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 738591000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5079240900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 642768200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter the username \"Abc@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abc@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 625431000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the password \"Pa$$word@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pa$$word@123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591608700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Login_Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 580534400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should get the error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Login_Steps.i_should_get_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login to the application Sauce Demo",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5352966000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T10:20:13.505Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1376448200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.Setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Validate the Negative login functionality using multiple Testdata",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-sauce-demo-application;validate-the-negative-login-functionality-using-multiple-testdata;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 709249400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5097673500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 638274800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter the username \"fgr12@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fgr12@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 627332200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the password \"Pa$$word@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pa$$word@123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615056300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Login_Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566907200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should get the error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Login_Steps.i_should_get_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Login page of the Sauce Demo Application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-login-page-of-the-sauce-demo-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Featuresfiles/Login_SauceDemo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Logon to the application https://www.saucedemo.com/",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5303910500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the Sauce Demo application in browser",
+            "match": {
+              "location": "Login_Steps.i_have_opened_the_sauce_demo_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T10:20:28.495Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1333974900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.Setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Validate the prices of the product using data table",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-products-price-of-the-application-https://www.saucedemo.com/;validate-the-prices-of-the-product-using-data-table",
+        "after": [
+          {
+            "result": {
+              "duration": 782279500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Base_Class.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 265031600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have logged in successful",
+            "match": {
+              "location": "Products_Steps.i_have_logged_in_successful()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105199700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I pass below products",
+            "match": {
+              "location": "Products_Steps.i_pass_below_prodcuts(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1301400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should validate product prices against below prices",
+            "match": {
+              "location": "Products_Steps.i_should_validate_product_prices_against_below_prices(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "$9.99"
+                ]
+              },
+              {
+                "cells": [
+                  "$15.99"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PLP"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to test the products price of the application https://www.saucedemo.com/",
+    "description": "",
+    "id": "this-feature-would-be-used-to-test-the-products-price-of-the-application-https://www.saucedemo.com/",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Featuresfiles/ProductsPage.feature",
+    "tags": []
+  }
+]
